@@ -1,0 +1,140 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;*
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+#one{
+    color: #e65c00;
+}
+
+header input[type="search"] {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.enquire-btn {
+    padding: 10px 15px;
+    background-color: #ff6b00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.enquire-btn:hover {
+    background-color: #e65c00;
+}
+
+.align{
+    display: flex;
+    flex-direction: column;
+    background:rgb(225, 225, 232);
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.contact-info{
+        text-align: left;
+         grid-template-columns: auto;
+     }
+#bleu{
+    text-align: center;
+}
+.contact-form{
+         grid-template-columns: auto;
+         margin-left: 50px;
+     }
+.container {
+    background:rgb(225, 225, 232);
+    display: flex;
+}
+
+contact-info {
+    margin-bottom: 30px;
+}
+
+.contact-info h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.info-item .icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.info-item p {
+    margin: 0;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #ff6b00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.contact-form button:hover {
+    background-color: #e65c00;
+}
+    
+
