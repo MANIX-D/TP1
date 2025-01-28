@@ -1,0 +1,699 @@
+/* Reset CSS de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    
+}
+
+.btn{
+    border-radius: 50px;
+    padding: 20px 100px 20px 50px;
+    background:#FB5607;
+    color: #f9f9f9;
+    border: none;
+}
+.arrow{
+    width: 20px;
+    color:#f9f9f9;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* En-tête */
+header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    color: #0B2238;
+    
+}
+
+header .logo {
+   
+    display: flex;
+    transform: translateX(100%);
+}
+header .logo h1{
+    font-size: 20px;
+    font-weight: bold;
+  transform: translateY(25%);
+   
+    
+
+}
+
+header .logo img{
+   width: 40px;
+   height: 40px;
+}
+header .btn{
+    padding: 20px 50px 20px 30px;
+}
+
+.search-bar {
+    position: relative; 
+    display: inline-block; 
+    margin-right: 30px; 
+    transform: translateX(10%);
+}
+
+.search-bar input {
+    
+    border: 1px solid #e9e7e7; 
+    font-size: 8px;
+ 
+    width: 250px; 
+    height: 30px;
+}
+
+.search-icon {
+    position: absolute; 
+    
+    top: 30%; 
+    transform: translateX(-50%); 
+    width: 10px; 
+    height: 10px;
+    cursor: pointer; 
+}
+
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    color: #0B2238;
+  
+    transform: translateX(20%);
+}
+ 
+header nav ul li {
+    
+    margin-left: 35px;
+    color: #0B2238;
+    font-size:15px;
+    font-family: "sans serif";
+}
+
+
+header nav ul li a {
+    color: #0B2238;
+    text-decoration: none;
+}
+header nav ul li a .about{
+    color:#FB5607;
+}
+header nav ul li a:hover {
+    color: #FB5607;
+
+}
+header nav ul li a:active {
+    color: #fb5607;
+
+}
+
+header .search-bar input {
+    padding: 5px;
+    transform: translateX(10%);
+    border-radius: 50px;
+    padding: 5px 6px 5px 10px; /* Espace interne pour le texte et l'icône */
+}
+header .btn{
+    transform: translateX(60%);
+
+    display: inline-block;
+    background-color: #FB5607;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 30px;
+    font-size: 14px;
+    text-decoration: none; 
+    text-align: center;
+    cursor: pointer;
+  
+    transition: background-color 0.3s ease;
+
+}header .btn a {
+   color:white;
+   
+   font-size: 10px;
+   text-align: center;
+    
+}
+.btn {
+    display: inline-block;
+    background-color: #FB5607;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    text-decoration: none; 
+    text-align: center;
+    cursor: pointer;
+  
+    transition: background-color 0.3s ease;
+  }
+  
+ 
+  .btn:active {
+    background-color: white;
+  }
+  
+header .btn:hover{
+ 
+    width: 150px;
+    font-size: 10px;
+    text-align: center;
+    background-color: #0B2238;
+
+   
+    
+} 
+header .btn:active {
+    background-color:white;
+    color:#0B2238;
+    border-color: #FB5607;
+    
+
+}
+header .moon{
+    width: 8%; /* Largeur de la lune */
+    height: 40px; /* Hauteur de la lune */
+    padding: 25px;
+    transform: translateY(-30%);
+    
+   right: 500px;
+}
+
+/* Sections communes */
+
+
+/* Section OUR STORY */
+
+.our-story  h2 {
+    font-size: 30px;
+   
+}
+
+.our-story h3 {
+    font-size: 10px;
+    color: #3a86ff;
+   
+    padding: 20px ;
+    margin-left: -20px;
+}
+
+.our-story p {
+    font-size: 10px; 
+    padding-bottom: 30px;
+   
+}
+
+
+.our-story {
+    display: flex;
+    background-color: #f7f7f7;
+}
+.our-story .title-ourStory{
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+    margin: 00px 0px 0px 100px;
+   
+   
+}
+.our-story .title-ourStory h2{
+   font-size: 25px;
+   font-weight: bold;
+   color: #0B2238;
+  
+  
+}
+.our-story .text-ourStory{
+    flex: 2;
+    padding: 30px;
+    text-align: left;
+    font-size: 30px;
+    padding-bottom: 30px;
+    margin: 50px 30px 0px 0px;
+    color: #878b8f;
+}
+
+/* Section LEADERSHIP */
+
+
+.leadership {
+    background-color: #ffffff;
+    display: flex;
+  padding: 10px;
+}
+.leadership h3{
+    color:#3a86ff;
+   margin-right: 200px;
+}
+.leadership h2{
+   
+   margin-right: 20px;
+}
+
+
+.leadership .text-leadership{
+    flex: 2;
+    padding: 10px;
+    text-align: left;
+    margin: 50px 37px 10px 20px;
+}
+
+.leadership .text-leadership h3{
+    font-size:10px;
+   
+}
+
+
+.leadership .text-leadership h2{
+    font-size:30px;
+    text-align: left;
+    color:#0B2238;
+}
+
+
+.leadership .text-leadership p{
+    font-size:10px;
+    text-align: left;
+    color:#878b8f;
+    margin-top: 20px;
+    margin: 5px;
+    padding-bottom: 10px;
+    font-family: "sans serif";
+}
+.leadership .image-leadership{
+    flex: 2;
+    padding: 0px;
+    margin-left: 10%;
+    margin-top: 100px;
+  
+}
+
+.leadership .image-leadership img {
+    width: 70%;
+}
+
+.leadership .btn-more{
+    margin-top: 100px;
+}
+.leadership .btn {
+    position: relative;
+    margin: 10px;
+    margin-bottom: 30px;
+    font-size: 10px;
+    margin-top:-300px;
+    padding: 10px 40px 10px 20px;
+    
+}
+.leadership .arrow {
+ 
+    width: 15px;
+    transform: translateX(-300%);
+    top: 4px;
+   position:relative;
+    color:#f9f9f9;
+}
+
+
+/* Section WHY CHOOSE US 
+.why-choose-us h2{
+    font-size: 25px;
+}
+.why-choose-us .services {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.why-choose-us .service {
+    display:flex;
+    width: 30%;
+    padding: 20px 0 40px 0;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin: 10px 100px 10px 100px;
+}
+
+.why-choose-us .service img {
+    max-width: 50px;
+    height: 50px;
+    align-self: center;
+    margin: 20px;
+    transform: translateY(-50%);
+}
+
+
+.why-choose-us .service p {
+    font-size: 20px;
+}*/
+
+/* Section WHY CHOOSE US */
+.why-choose-us{
+    background-color: #f7f7f7;
+  margin : 0px 70px 15px 0px;
+}
+.why-choose-us h2{
+    font-size: 25px;
+    color: #0B2238;
+    text-align: center;
+   
+}.why-choose-us h3{
+    font-size: 13px;
+    color:#3a86ff;
+    text-align: center;
+    margin: 30px;
+}
+.why-choose-us {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 40px 20px; /* Espacement autour de la section */
+}
+
+.why-choose-us h2 {
+    font-size: 20px;
+    color: #0B2238;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.why-choose-us h3 {
+    font-size: 13px;
+    color: #3a86ff;
+    margin-bottom: 30px;
+ 
+}
+
+.why-choose-us .services {
+    display: flex;
+    justify-content: center; /* Aligne les blocs horizontalement */
+    align-items: center; 
+    padding-bottom: 30px;
+   
+   
+}
+
+.why-choose-us .service {
+    display: flex;
+   
+    align-items: center; /* Centre verticalement l'image et le texte */
+    width: 25%; /* Largeur uniforme pour les services */
+    padding: 30px;
+    margin-left: 100px;
+    background-color: #fff;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.why-choose-us .service:hover {
+    transform: scale(1.05); /* Légère mise en avant au survol */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Ombre accentuée */
+}
+
+.why-choose-us .service img {
+    width: 50px; /* Taille fixe pour les images */
+    height: 50px;
+    padding: 10px;
+
+    border-radius: 30px; /* Coins arrondis */
+    margin-right: 25px; /* Espace entre l'image et le texte */
+}
+
+.service .icon1{
+    background-color: rgb(160, 197, 248);
+}
+
+.service .icon2{
+    background-color: rgb(253, 170, 198);
+}
+
+
+.service .icon3{
+    background-color: rgb(143, 240, 174);
+}
+.why-choose-us .service .text {
+    display: flex;
+    flex-direction: column; /* Aligne le titre et le texte en colonne */
+    justify-content: center; /* Centre verticalement les textes */
+}
+
+.why-choose-us .service .text .p2 {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    color: #0B2238;
+    margin-bottom: 10px;
+    margin-left: -30px;
+}
+
+.why-choose-us .service .text .p3 {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    color: #0B2238;
+    margin-bottom: 10px;
+    margin-left: -30px;
+}
+
+.why-choose-us .service .text .p1 {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    color: #0B2238;
+    margin-bottom: 10px;
+    margin-left: -15px;
+}
+
+.why-choose-us .service .text p {
+    font-size: 10px;
+    font-family: "sans-serif", serif;
+    color: #878b8f;
+    margin: 0; /* Pas de marges inutiles */
+}
+
+
+/* Section LEADING TEAM */
+.leading-team{
+    background-color: #ffffff;
+    padding: 70px;
+    margin-left: 20px;
+    
+}
+.leading-team h3{
+    font-size:15px;
+    text-align: center;
+    color: #3a86ff;
+}
+
+.leading-team h2{
+    font-size:25px;
+    text-align: center;
+    color: #0B2238;
+}
+.leading-team .team-members {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.leading-team .member {
+    width: 20%;
+    padding: 0px;
+ 
+    background-color: #e8edfc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.leading-team  h4 {
+    color:#0B2238;
+    font-size: 15px;
+   
+    font-family: "Poppins", sans-serif;
+    font-style: 5em;
+    margin-left: 25px;
+   
+   
+ 
+    
+ }
+ .leading-team p {
+    color:#0B2238;
+    font-size: 10px;
+    margin-left: 25px;
+    font-family: "sans serif";
+   
+    padding-bottom: 20px;
+    
+    
+ }
+.leading-team .member img {
+    width: 100%;
+}
+
+.leading-team .member .icons {
+    display: flex;
+    transform:translate(70%,-90%);
+}
+.leading-team .member .icons .icon {
+    margin-right: 5px;
+}
+.leading-team .member .icons img{
+    width: 10%;
+}
+
+/* Section Become A Real Estate Agent */
+.become-agent {
+    background-color: #0B2238;
+    color: #fff;
+    padding: 50px 20px 50px 20px;
+    display: flex;
+   
+}
+
+.become-agent .text {
+    flex: 1;
+    text-align: left;
+    padding: 20px 0 20px 100px;
+}
+
+.become-agent .btn-join {
+    flex: 1;
+    padding: 50px 50px;
+    transform: translateX(55%);
+  font-size: 10px;
+}
+.become-agent .btn{
+    border-radius: 50px;
+    padding: 10px 50px 10px 30px;
+    background:#FB5607;
+    text-align: center;
+    color: #f9f9f9;
+    border: none;
+}
+
+.become-agent .arrow{
+    margin-left: -30px;
+    transform: translateY(30%);
+  
+}
+
+/* Pied de page */
+.footer {
+    display: flex;
+    text-align: center;
+    padding: 50px 100px 50px 100px;
+    background-color:#0B2238;
+    color: #fff;
+    border-bottom: 1px solid #242425;
+}
+.footer h2{
+    font-size:20px;
+}
+
+/* Section CONTACT US */
+.contact-us {
+    flex:1;
+    text-align: left;
+    padding: 0px 0px 8px 20px;
+}
+.contact-us p{
+    text-align: left;
+    padding: 0px 0px 15px 0px;
+    font-size: 15px;
+}
+.contact-us .social-media{
+    display: flex;
+}
+.contact-us .social-media .icon{
+    width: 15%;
+    margin-right: 20px;
+}
+/* Section POPULAR SEARCHES */
+
+.popular-searches{
+    flex: 1;
+    text-align: left;
+    padding: 0px 0px 8px 40px;
+}
+.popular-searches ul {
+    list-style: none;
+    font-size: 15px;
+    
+}
+
+.popular-searches ul li {
+    padding: 15px 0px 15px 0px;
+}
+
+/* Section QUICK LINKS */
+.quick-links{
+    flex: 1;
+    text-align: left;
+    padding: 0px 0px 8px 40px;
+    
+}
+.quick-links ul {
+    list-style: none;
+}
+
+.quick-links ul li {
+    padding: 15px 0px 15px 0px;
+    font-size: 15px;
+    
+}
+.quick-links ul li a{
+    color: #fff;   
+}
+
+/* Section NEWSLETTER */
+.newsletter{
+    flex: 1;
+    text-align: left;
+}
+.newsletter p{
+    text-align: left;
+    padding: 15px 0px 15px 0px;
+}
+.newsletter input {
+    position: relative;
+    padding: 20px 70px 20px 20px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.newsletter img{
+    position:absolute;
+    width: 3%;
+    background-color: #ff5100;
+    border-radius: 25px;
+    padding: 5px;
+    margin-top: 15px;
+    transform: translateX(-150%);
+}
+footer p{
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    background-color:#0B2238;
+    color: #fff;
+    font-size: 13px;
+    
+}
+footer p span{
+    color: #ff5100;
+}
+
